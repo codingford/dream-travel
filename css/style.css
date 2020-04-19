@@ -1,0 +1,98 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./settings.css);
+header {
+  background-color: #494646;
+  background-image: url(../media/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+header .container {
+  flex-direction: column;
+}
+header a {
+  font-family: inherit;
+  color: inherit;
+  padding: 10px;
+  text-transform: uppercase;
+}
+header .upper-nav,
+header .lower-nav,
+header .social,
+header .login,
+header .login div,
+header .main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+header .upper-nav {
+  min-height: 50px;
+  align-items: center;
+}
+header .social {
+  max-width: 170px;
+  width: 100%;
+}
+header .lower-nav {
+  min-height: 95px;
+  align-items: center;
+}
+header .main-nav,
+header .login {
+  max-width: 470px;
+  width: 100%;
+}
+header .login-btn {
+  position: relative;
+}
+header .login-btn:after {
+  content: " ";
+  position: absolute;
+  height: 20px;
+  width: 2px;
+  background-color: #ffc001;
+  top: 5px;
+  right: 0;
+  z-index: 5;
+}
+header .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 77vh;
+  max-width: 640px;
+}
+header .content h2 {
+  font-family: inherit;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+header .content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+header .content a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #ffc001;
+  padding: 12px 33px;
+  border: 1px solid white;
+  border-radius: 30px;
+  max-width: fit-content;
+}
+header .content a[href^=tel] {
+  font-size: 20px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-color: transparent;
+}

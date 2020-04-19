@@ -1,0 +1,105 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./settings.css);
+body {
+    $active-color: #ffc001 !global; 
+}
+header {
+    background-color: #494646;
+    background-image: url(../media/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: OpenSans, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    .container {
+        flex-direction: column;
+    }
+    a {
+        font-family: inherit;
+        color: inherit;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .upper-nav,
+    .lower-nav,
+    .social,
+    .login,
+    .login div,
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .upper-nav {
+        min-height: 50px;
+        align-items:center ;
+    }
+    .social{
+        max-width: 170px;
+        width: 100%;
+    }
+    .lower-nav {
+        min-height: 95px;
+        align-items: center;
+    }
+    .main-nav,
+    .login {
+        max-width: 470px;
+        width:100%;
+    }
+    .login-btn {
+        position: relative;
+        &:after {
+            content: " ";
+            position: absolute;
+            height: 20px;
+            width: 2px;
+            background-color: $active-color;
+            top: 5px;
+            right: 0;
+            z-index: 5;
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 77vh;
+        max-width: 640px;
+        h2 {
+            font-family: inherit;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 40px;
+        }
+        a {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 21px;
+            color: $active-color;
+            padding: 12px 33px;
+            border: 1px solid white;
+            border-radius: 30px;
+            max-width: fit-content;
+
+        
+            &[href^="tel"] {
+                font-size: 20px;
+                padding: 10px 0;
+                margin-bottom: 20px;
+                border-color: transparent;
+            }
+        }
+    }
+    
+}
+
