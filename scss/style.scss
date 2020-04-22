@@ -23,6 +23,10 @@ header {
         color: inherit;
         padding: 10px;
         text-transform: uppercase;
+        i {
+            font-size: 15px;
+            font-weight: 200;
+        }
     }
     .upper-nav,
     .lower-nav,
@@ -32,6 +36,7 @@ header {
     .main-nav {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     .upper-nav {
         min-height: 50px;
@@ -45,6 +50,7 @@ header {
         min-height: 95px;
         align-items: center;
     }
+    nav,
     .main-nav,
     .login {
         max-width: 470px;
@@ -103,3 +109,84 @@ header {
     
 }
 
+.booking-form {
+    padding-top: 1px;
+    background-color: #fafafa;
+    position: relative;
+    .form-header {
+        position: absolute;
+        top: -44px;
+        left: 0;
+        border-left: solid 25px $active-color;
+        font-size: 1px;
+        :nth-child(1),
+        :nth-child(2) {
+            margin-right: 2px;
+        }
+
+        
+    }
+    .active-btn,
+    .submit-button,
+    button,
+    input[list],
+    input[date],
+    label,
+    input[placeholder] {
+        font-family: OpenSans, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        border-color: transparent;
+        padding: 12px 22px;
+        
+    }
+    .active-btn,
+    .submit-button {
+        background-color: $active-color;
+        font-weight: 600;
+        color: #fff;
+    }
+    flex-direction: column;
+    .form-wrapper {
+        display: flex;
+        align-items: center;
+        border-left: solid 25px $active-color;
+        min-height: 190px;
+        height: 100%;
+        padding-right: 45px;
+        position: relative;
+        input {
+            border: solid 0 transparent;
+            padding: 10px 15px;
+            text-transform: capitalize;
+        }
+        .hotel, .tours, .package {
+            justify-content: space-around;
+            display: none;
+            // align-items: center;
+        }
+        form {
+            width: 100%;
+        }
+        .active-form {
+            display: flex;
+        }
+        .input-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        .submit-button {
+            background-color: $active-color;
+            transform: rotateZ(90deg) translatex(-20%);
+            position: absolute;
+            top: 50%;
+            right: -32px;
+            padding: 13px 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+        }
+       
+    }
+}
