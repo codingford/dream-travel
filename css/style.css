@@ -11,170 +11,159 @@ header {
   font-family: OpenSans, sans-serif;
   font-size: 12px;
   font-weight: 600;
-  color: #fff;
-}
-header .container {
-  flex-direction: column;
-}
-header a {
-  font-family: inherit;
-  color: inherit;
-  padding: 10px;
-  text-transform: uppercase;
-}
-header a i {
-  font-size: 15px;
-  font-weight: 200;
-}
-header .upper-nav,
-header .lower-nav,
-header .social,
-header .login,
-header .login div,
-header .main-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-header .upper-nav {
-  min-height: 50px;
-  align-items: center;
-}
-header .social {
-  max-width: 170px;
-  width: 100%;
-}
-header .lower-nav {
-  min-height: 95px;
-  align-items: center;
-}
-header nav,
-header .main-nav,
-header .login {
-  max-width: 470px;
-  width: 100%;
-}
-header .login-btn {
-  position: relative;
-}
-header .login-btn:after {
-  content: " ";
-  position: absolute;
-  height: 20px;
-  width: 2px;
-  background-color: #ffc001;
-  top: 5px;
-  right: 0;
-  z-index: 5;
-}
-header .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 77vh;
-  max-width: 640px;
-}
-header .content h2 {
-  font-family: inherit;
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-header .content p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-bottom: 40px;
-}
-header .content a {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 21px;
-  color: #ffc001;
-  padding: 12px 33px;
-  border: 1px solid white;
-  border-radius: 30px;
-  max-width: fit-content;
-}
-header .content a[href^=tel] {
-  font-size: 20px;
-  padding: 10px 0;
-  margin-bottom: 20px;
-  border-color: transparent;
-}
+  color: #fff; }
+  header .container {
+    flex-direction: column; }
+  header a {
+    font-family: inherit;
+    color: inherit;
+    padding: 10px;
+    text-transform: uppercase; }
+    header a i {
+      font-size: 15px;
+      font-weight: 200; }
+  header .upper-nav,
+  header .lower-nav,
+  header .social,
+  header .login,
+  header .login div,
+  header .main-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  header .upper-nav {
+    min-height: 50px;
+    align-items: center; }
+  header .social {
+    max-width: 190px;
+    width: 100%; }
+  header .lower-nav {
+    min-height: 95px;
+    align-items: center; }
+  header nav,
+  header .main-nav,
+  header .login {
+    max-width: 470px;
+    width: 100%; }
+  header .login-btn {
+    position: relative; }
+    header .login-btn:after {
+      content: " ";
+      position: absolute;
+      height: 20px;
+      width: 2px;
+      background-color: #ffc001;
+      top: 5px;
+      right: 0;
+      z-index: 5; }
+  header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 77vh;
+    max-width: 640px; }
+    header .content h2 {
+      font-family: inherit;
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    header .content p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 40px; }
+    header .content a {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+      color: #ffc001;
+      padding: 12px 33px;
+      border: 1px solid white;
+      border-radius: 30px;
+      max-width: fit-content; }
+      header .content a[href^="tel"] {
+        font-size: 20px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        border-color: transparent; }
 
 .booking-form {
   padding-top: 1px;
   background-color: #fafafa;
   position: relative;
-  flex-direction: column;
-}
-.booking-form .form-header {
-  position: absolute;
-  top: -44px;
-  left: 0;
-  border-left: solid 25px #ffc001;
-  font-size: 1px;
-}
-.booking-form .form-header :nth-child(1),
-.booking-form .form-header :nth-child(2) {
-  margin-right: 2px;
-}
-.booking-form .active-btn,
-.booking-form .submit-button,
-.booking-form button,
-.booking-form input[list],
-.booking-form input[date],
-.booking-form label,
-.booking-form input[placeholder] {
+  margin-bottom: 115px;
+  flex-direction: column; }
+  .booking-form .form-header {
+    position: absolute;
+    top: -44px;
+    left: 0;
+    border-left: solid 25px #ffc001;
+    font-size: 1px; }
+    .booking-form .form-header :nth-child(1),
+    .booking-form .form-header :nth-child(2) {
+      margin-right: 2px; }
+  .booking-form .active-btn,
+  .booking-form .submit-button,
+  .booking-form button,
+  .booking-form input[list],
+  .booking-form input[date],
+  .booking-form label,
+  .booking-form input[placeholder] {
+    font-family: OpenSans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-color: transparent;
+    padding: 12px 22px; }
+  .booking-form .active-btn,
+  .booking-form .submit-button {
+    background-color: #ffc001;
+    font-weight: 600;
+    color: #fff; }
+  .booking-form .form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-left: solid 25px #ffc001;
+    min-height: 190px;
+    height: 100%;
+    padding-right: 45px;
+    position: relative; }
+    .booking-form .form-wrapper input {
+      border: solid 0 transparent;
+      padding: 10px 15px;
+      text-transform: capitalize; }
+    .booking-form .form-wrapper .hotel, .booking-form .form-wrapper .tours, .booking-form .form-wrapper .package {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      display: none; }
+    .booking-form .form-wrapper form {
+      width: 100%; }
+    .booking-form .form-wrapper .active-form {
+      display: flex; }
+    .booking-form .form-wrapper .input-wrapper {
+      display: flex;
+      flex-direction: column; }
+    .booking-form .form-wrapper .submit-button {
+      background-color: #ffc001;
+      transform: rotateZ(90deg) translatex(-20%);
+      position: absolute;
+      top: 50%;
+      right: -32px;
+      padding: 13px 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+
+.popular-places {
+  display: block;
   font-family: OpenSans, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  border-color: transparent;
-  padding: 12px 22px;
-}
-.booking-form .active-btn,
-.booking-form .submit-button {
-  background-color: #ffc001;
-  font-weight: 600;
-  color: #fff;
-}
-.booking-form .form-wrapper {
-  display: flex;
-  align-items: center;
-  border-left: solid 25px #ffc001;
-  min-height: 190px;
-  height: 100%;
-  padding-right: 45px;
-  position: relative;
-}
-.booking-form .form-wrapper input {
-  border: solid 0 transparent;
-  padding: 10px 15px;
-  text-transform: capitalize;
-}
-.booking-form .form-wrapper .hotel, .booking-form .form-wrapper .tours, .booking-form .form-wrapper .package {
-  justify-content: space-around;
-  display: none;
-}
-.booking-form .form-wrapper form {
-  width: 100%;
-}
-.booking-form .form-wrapper .active-form {
-  display: flex;
-}
-.booking-form .form-wrapper .input-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-.booking-form .form-wrapper .submit-button {
-  background-color: #ffc001;
-  transform: rotateZ(90deg) translatex(-20%);
-  position: absolute;
-  top: 50%;
-  right: -32px;
-  padding: 13px 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
+  .popular-places h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffc001; }
+  .popular-places p {
+    font-size: 30px;
+    font-weight: 600; }
+
+/*# sourceMappingURL=style.css.map */

@@ -43,7 +43,7 @@ header {
         align-items:center ;
     }
     .social{
-        max-width: 170px;
+        max-width: 190px;
         width: 100%;
     }
     .lower-nav {
@@ -113,6 +113,7 @@ header {
     padding-top: 1px;
     background-color: #fafafa;
     position: relative;
+    margin-bottom: 115px;
     .form-header {
         position: absolute;
         top: -44px;
@@ -150,6 +151,7 @@ header {
     flex-direction: column;
     .form-wrapper {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         border-left: solid 25px $active-color;
         min-height: 190px;
@@ -162,9 +164,9 @@ header {
             text-transform: capitalize;
         }
         .hotel, .tours, .package {
+            flex-wrap: wrap;
             justify-content: space-around;
             display: none;
-            // align-items: center;
         }
         form {
             width: 100%;
@@ -188,5 +190,20 @@ header {
 
         }
        
+    }
+}
+.popular-places {
+    display: block;
+    font-family: OpenSans, sans-serif;
+    text-transform: uppercase;
+    h2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: $active-color;
+    }
+    p {
+        font-size: 30px;
+        font-weight: 600;
+
     }
 }
