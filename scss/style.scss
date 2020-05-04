@@ -2,7 +2,11 @@
 @import url(./fonts.css);
 @import url(./settings.css);
 body {
+<<<<<<< HEAD
     $active-color: #ffc001 !global;
+=======
+    $active-color: #ffc001 !global;
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
 }
 header {
     background-color: #494646;
@@ -97,7 +101,11 @@ header {
             border-radius: 30px;
             max-width: fit-content;
 
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
             &[href^="tel"] {
                 font-size: 20px;
                 padding: 10px 0;
@@ -106,7 +114,11 @@ header {
             }
         }
     }
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
 }
 
 .booking-form {
@@ -125,7 +137,11 @@ header {
             margin-right: 2px;
         }
 
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
     }
     .active-btn,
     .submit-button,
@@ -140,7 +156,11 @@ header {
         text-transform: uppercase;
         border-color: transparent;
         padding: 12px 22px;
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
     }
     .active-btn,
     .submit-button {
@@ -189,13 +209,18 @@ header {
             text-transform: uppercase;
 
         }
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
     }
 }
 .popular-places {
     display: block;
     font-family: OpenSans, sans-serif;
     text-transform: uppercase;
+<<<<<<< HEAD
 
 
 //    &.slick-next.slick-arrow, &.slick-prev.slick-arrow {
@@ -204,11 +229,14 @@ header {
 //        }
 //
 //    }
+=======
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
     h2 {
         font-size: 14px;
         font-weight: 600;
         color: $active-color;
     }
+<<<<<<< HEAD
     >p {
         font-size: 30px;
         font-weight: 600;
@@ -244,6 +272,11 @@ header {
 //
 //            }
         }
+=======
+    p {
+        font-size: 30px;
+        font-weight: 600;
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
 
     }
 }

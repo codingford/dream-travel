@@ -1,4 +1,3 @@
-"use strict";
 let hotelBtn = document.querySelector('.form-toggler-hotel');
 let toursBtn = document.querySelector('.form-toggler-tours');
 let packageBtn = document.querySelector('.form-toggler-package');
@@ -38,6 +37,7 @@ packageBtn.addEventListener('click', function(evt) {
     toursForm.classList.remove('active-form');
     hotelForm.classList.remove('active-form');
     }
+<<<<<<< HEAD
 );
 
 
@@ -79,3 +79,6 @@ $('.responsive').slick({
     // instead of a settings object
   ]
 });
+=======
+);
+>>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
