@@ -162,7 +162,6 @@ header {
     font-size: 14px;
     font-weight: 600;
     color: #ffc001; }
-<<<<<<< HEAD
   .popular-places > p {
     font-size: 30px;
     font-weight: 600;
@@ -190,10 +189,5 @@ header {
       padding: 40px 0;
       background-color: #ffc001;
       opacity: .8; }
-=======
-  .popular-places p {
-    font-size: 30px;
-    font-weight: 600; }
->>>>>>> 5360ba4190fecf966ff54b3979e8c61361215e60
 
 /*# sourceMappingURL=style.css.map */
